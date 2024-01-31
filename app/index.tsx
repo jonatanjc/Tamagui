@@ -15,11 +15,11 @@ export default function Home() {
     <MySafeAreaView>
       <MyStack>
         <YStack space="$4" maxWidth={600}>
-          <H1 textAlign="center">Welcome to Tamagui.</H1>
+          <H1 textAlign="center">Iron Man</H1>
          
           <Image source={myImage} style={{ width: 200, height: 200, alignSelf: "center" }} />
           <Paragraph textAlign="center">
-            Here&apos;s a basic starter to show navigating from one screen to another.
+          "The Avengers"
           </Paragraph>
         </YStack>
 

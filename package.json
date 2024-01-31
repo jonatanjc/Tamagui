@@ -10,7 +10,6 @@
     "upgrade:tamagui": "$npm_execpath up '*tamagui*' '@tamagui/*'"
   },
   "dependencies": {
-    "@expo/webpack-config": "^19.0.0",
     "@tamagui/animations-react-native": "^1.81.4",
     "@tamagui/babel-plugin": "^1.81.4",
     "@tamagui/config": "^1.81.4",
@@ -61,10 +60,5 @@
   "volta": {
     "node": "20.10.0",
     "yarn": "3.7.0"
-  },
-  "expo": {
-    "config": {
-      "EXPO_ROUTER_APP_ROOT": "."
-    }
   }
 }
